@@ -1,0 +1,43 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dataset Folders (Large image archives)
+dataset_face_cls/
+facial-expression-1/
+facial-emotion-recognition-1/
+*.zip
+*.tar.gz
+
+# YOLO Training Caches & Temporary Runs
+runs/
+facial_expression_runs/
+*.cache
+mlruns/
+
+# Base Pretrained Weights (Ultralytics auto-downloads these)
+yolo11n.pt
+yolo11s.pt
+yolo11m.pt
+yolo11l.pt
+yolo11x.pt
+yolo11s-cls.pt
+
+# Intermediate checkpoints (Keep best.pt)
+**/weights/last.pt
